@@ -11,12 +11,16 @@
 */
 
 /**
- * ___
- * ___
- * ___
+ * a function that reverses a string
+ * @param {text} text to introduce to be repeated
+ * @returns {value} returns the value reversed
  */
 const reverse = (text = '') => {
-
+  let reversedText = "";
+  for (let i = text.length -1; i >= 0; i--) {
+    reversedText += text[i];
+  }
+  return reversedText;
 };
 
 const _1_expect = 'aaaa';

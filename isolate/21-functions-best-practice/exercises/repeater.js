@@ -11,13 +11,17 @@
 */
 
 /**
- * ___
- * @param {string} text - ___
- * @param {number} repeats - ___
- * @returns {string} ___
+ * A function that repears the string
+ * @param {string} text - string to repeat 
+ * @param {number} repeats - the number of repetitions set as a number
+ * @returns {string} returns the string with the number of repetitions
  */
-const repeat = () => {
-
+const repeat = (string = "", number) => {
+  let stringToRepeat = "";
+  for (let i = 0; i < number; i++) {
+    stringToRepeat += string;
+  }
+  return stringToRepeat;
 };
 
 const _1_expect = 'aaaa';

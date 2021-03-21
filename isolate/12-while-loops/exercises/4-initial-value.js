@@ -16,7 +16,7 @@
   how many can you find?
   what do all the correct answers have in common?
 */
-let sum = _;
+let sum = 2;
 
 while (sum < 100) {
 

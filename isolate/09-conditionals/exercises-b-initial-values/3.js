@@ -4,8 +4,8 @@
 //  what do all solutions to the same path have in common?
 // or maybe there are unreachable paths!
 
-const value1 = _;
-const value2 = _;
+const value1 = true;
+const value2 = null;
 let path = '';
 
 if (value1 && !value2) {

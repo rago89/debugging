@@ -4,8 +4,8 @@
 // fill in the documentation to describe the function
 
 
-const scramble = () => {
-
+const scramble = (param1, param2, param3) => {
+  return param3 + param1 + param2;
 };
 
 const _1_expect = "yxz";

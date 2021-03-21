@@ -4,15 +4,15 @@ const word = 'pitsicola';
 
 let index = 0;
 let logThisOne = true;
-while (index < word._) {
+while (index < word.length) {
 
   const nextLetter = word[index];
 
   index += 1;
   logThisOne = !logThisOne;
 
-  if (_) {
-    _;
+  if (nextLetter.length === word.length) {
+    break;
   }
 
   console.log(index + ': ' + nextLetter);

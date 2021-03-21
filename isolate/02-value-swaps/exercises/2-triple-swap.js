@@ -6,9 +6,10 @@ let c = 'y';
 let temp = null;
 
 // write some code, be sure to use temp!
-
-
-
+temp = a;
+a = b;
+b = c;
+c = temp;
 // fill in the _ to pass the assertions
 
 const isTrue1 = a === 'x';
@@ -20,6 +21,6 @@ console.assert(isTrue2, 'Test 2');
 const isTrue3 = c === 'z';
 console.assert(isTrue3, 'Test 3');
 
-const isTrue4 = temp === _;
+const isTrue4 = temp === c;
 console.assert(isTrue4, 'Test 4');
 

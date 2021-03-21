@@ -23,13 +23,13 @@ let paddedString = 'hi';
 
 // boolean flag variable
 let isLongEnough = false;
-while (_) {
-  paddedString = _;
+while (!isLongEnough) {
+  paddedString = paddedString + padding;
   console.log(paddedString);
-  if (_) {
-    _;
+  if (paddedString.length === longEnough) {
+    console.log(paddedString.length);
+    isLongEnough = true;
   }
 }
-
 
 console.assert(paddedString === 'hi.:..:..:..:.', '"hi" should have 12 padding characters');

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* Stepping Up
 
@@ -14,20 +14,23 @@
 
 */
 
-const toRepeat = 'howdy';
+const toRepeat = "howdy";
 const totalRepetitions = 4;
 
-let repeatedString = '';
+let repeatedString = "";
 
 /* declare and assign stepper variable
   used to count the number of times the string has been repeated
 */
 let currentRepetitions = 0;
-while (_) {
-  repeatedString = _;
-  currentRepetitions = _;
+
+while (currentRepetitions < totalRepetitions) {
+  repeatedString += toRepeat;
+  currentRepetitions = currentRepetitions + 1;
   console.log(repeatedString);
 }
 
-console.assert(repeatedString === 'howdyhowdyhowdyhowdy', '"howdy" should be repeated 4 times');
-
+console.assert(
+  repeatedString === "howdyhowdyhowdyhowdy",
+  '"howdy" should be repeated 4 times'
+);

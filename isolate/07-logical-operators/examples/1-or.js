@@ -3,8 +3,8 @@
 /* ||
   the or operator does not evaluate to true or false!
   it returns the left value or the right value
-  - if the left is truthy, it returns the left value
-  - if the left is falsy, it returns the right value
+  - if the left is truthy, it evaluates(returns) the left value
+  - if the left is falsy, it evaluates(returns) the right value
 */
 
 const or1 = 0 || 0;

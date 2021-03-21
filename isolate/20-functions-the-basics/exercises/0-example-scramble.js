@@ -19,7 +19,7 @@ console.assert(_2_test, 'Test 2');
 
 
 // correct the expected value to pass the assertion
-const _3_expected = "yzx";
+const _3_expected = "yxz";
 const _3_actual = scramble("z", "y", "x");
 const _3_test = _3_actual === _3_expected;
 console.assert(_3_test, 'Test 3');
@@ -27,7 +27,7 @@ console.assert(_3_test, 'Test 3');
 
 // correct the arguments to pass the assertion
 const _4_expected = "zyx";
-const _4_actual = scramble("y", "x", "z");
+const _4_actual = scramble("x", "z", "y");
 const _4_test = _4_actual === _4_expected;
 console.assert(_4_test, 'Test 4');
 

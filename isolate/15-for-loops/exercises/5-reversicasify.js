@@ -11,9 +11,11 @@ console.log('originalString:', originalString);
 
 let reverseUpperCase = '';
 
-for (_; _; _) {
+for (let i = originalString.length - 1; i >= 0; i--) {
   // a blank canvas :)
-
+  reverseUpperCase += originalString[i].toUpperCase();
+  console.log(i, 'the stepper variable' );
+  console.log(reverseUpperCase)
 
 }
 

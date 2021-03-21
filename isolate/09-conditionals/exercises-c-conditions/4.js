@@ -11,13 +11,13 @@ const value2 = 200;
 const value3 = false
 let path = '';
 
-if (_) {
+if ((value1 && value2) && value3) {
   path = 'if';
 
-} else if (_) {
+} else if ((typeof(value1) && typeof(value2)) || value3 ) {
   path = 'else if 1';
 
-} else if (_) {
+} else if ((Number(value1) || Number(value2)) || value3 ) {
   path = 'else if 2';
 
 } else {

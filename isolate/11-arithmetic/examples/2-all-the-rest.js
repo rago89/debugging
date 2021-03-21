@@ -18,8 +18,8 @@
 
 
 // try different values to see what happens
-const a = _;
-const b = _;
+const a = 2;
+const b = true;
 
 
 const realSubtraction = a - b;

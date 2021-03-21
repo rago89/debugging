@@ -16,8 +16,9 @@
  * @param {number} y - the right number
  * @returns {number} the sum of x and y
  */
-const add = () => {
-
+const add = (x, y) => {
+  let sum = x  + y;
+  return sum;
 };
 
 const _1_expect = 2;

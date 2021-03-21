@@ -23,8 +23,8 @@
 
 
 // try different values to see what happens
-let a = _;
-let b = _;
+let a = "10";
+let b = "10";
 
 
 const realPlus = a + b;
