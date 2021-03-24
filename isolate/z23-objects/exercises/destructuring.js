@@ -2,27 +2,27 @@
 
 (() => {
   const { dry, wet } = {
-    wet: _,
+    wet: 'soup',
     dry: 'bread',
   };
-  console.assert(_ === 'bread', 'Test 1');
+  console.assert(dry === 'bread', 'Test 1');
   console.assert(wet === 'soup', 'Test 2');
 })();
 
 (() => {
   const hairiest = 'cheetah';
-  const oceanic = _;
+  const oceanic = 'swimming';
   const obj = {
     [oceanic]: 'mackerel',
     running: hairiest,
   };
-  const birdy = _;
-  obj[birdy] = _;
+  const birdy = 'flying';
+  obj[birdy] = 'crane';
   const { swimming, flying, running } = obj;
-  console.assert(flying === _, 'Test 3');
-  console.assert(_ === 'cheetah', 'Test 4');
+  console.assert(flying === 'crane', 'Test 3');
+  console.assert(running === 'cheetah', 'Test 4');
   console.assert(swimming === 'mackerel', 'Test 5');
-  console.assert(deepCompare(obj, {}), 'Test 6');
+  console.assert(deepCompare(obj, {flying: 'crane', running: 'cheetah', swimming: 'mackerel'}), 'Test 6');
 })();
 
 // prettier-ignore

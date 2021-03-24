@@ -41,13 +41,13 @@ console.log('randomPhraseNumber:', typeof randomPhraseNumber, randomPhraseNumber
 // this variable will be used later for comparing
 let phraseToGuess = '';
 if (randomPhraseNumber === 1) {
-  _;
+  phraseToGuess = input1;
 
 } else if (randomPhraseNumber === 2) {
-  _;
+  phraseToGuess = input2;
 
 } else if (randomPhraseNumber === 3) {
-  _;
+  phraseToGuess = input3;
 
 } else {
   console.log('unreachable!');
@@ -55,15 +55,15 @@ if (randomPhraseNumber === 1) {
 }
 
 
-const guessMessage = '_ ' + randomPhraseNumber;
+const guessMessage = 'Do you remember the input number ' + randomPhraseNumber + '?';
 const userGuess = prompt(guessMessage);
 console.log('userGuess:', typeof userGuess, userGuess);
 
 // does the user's guess exactly match the random phrase?
-const guessIsCorrect = _;
-console.log('guessMessage:', typeof guessMessage, guessMessage);
+const guessIsCorrect = userGuess === phraseToGuess;
+console.log('guessMessage:', typeof guessIsCorrect, guessIsCorrect);
 
-if (guessMessage) {
+if (guessIsCorrect) {
   const successMessage = 'correct! phrase '
     + randomPhraseNumber
     + ' was "' + phraseToGuess + '"';

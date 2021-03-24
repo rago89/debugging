@@ -33,12 +33,15 @@
     "type": "git"
   },
   "devDependencies": {
-    "@sindresorhus/slugify": "^1.1.0",
-    "@types/lodash": "^4.14.165",
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2",
+    "request": "^2.88.2",
     "typescript": "^4.1.2"
   },
   "dependencies": {
+    "chai": "^4.3.4",
     "flowers": "^1.1.0",
+    "jest-cli": "^26.6.3",
     "lodash": "^4.17.20"
   }
 }

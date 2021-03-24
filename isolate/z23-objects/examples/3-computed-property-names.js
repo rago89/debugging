@@ -8,9 +8,9 @@ const value1 = 'Brendan';
 
 const key2 = 'lastName';
 const value2 = 'Eich';
-
+// in bracket notation i also can give acces to the value putting the key name as a string
 const computedPropertyNames = {
-  [key1]: value1,
+  ['firstName']: value1,
   [key2]: value2
 };
 

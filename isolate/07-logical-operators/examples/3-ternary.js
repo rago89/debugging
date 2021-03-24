@@ -2,10 +2,16 @@
 
 /* the Ternary Operator (or Conditional Operator)
 
-it checks the truthiness of the condition
-  - returns the first value if the condition is truthy
-  - returns the second value if the condition is falsy
+
+/*
+   check if the user entered nothing, or clicked cancel
+   TERNARY OPERATOR The conditional operator is the only ternary operator (three operands) 
+   in JavaScript and is sometimes actually called the ternary operator.
+   1- if the left side of '?' If the value of the first operand is truthy, then the second operand is evaluated, and its value is returned
+   2- if the left side of '?' is false them is going to return the second 
+   Otherwise, if the first operand is falsy, then the third operand is evaluated and its value is returned.
 */
+
 
 
 const ternary1 = 1 ? 'A' : 'B';

@@ -14,9 +14,9 @@ while (true) {
   userInput = prompt('enter a phrase, each character will be repeated:');
   console.log('userInput:', typeof userInput, userInput);
 
-  if (_) {
+  if (!userInput) {
     alert('nope, enter something');
-    _;
+    continue;
   }
 
   const repetitionsInput = prompt('how many times do you want to repeat each character?');
@@ -25,9 +25,9 @@ while (true) {
   repetitions = Number(repetitionsInput);
   console.log('repetitions:', typeof repetitions, repetitions);
 
-  if (_) {
+  if (Number.isNaN(repetitions)) {
     alert('"' + repetitionsInput + '" is not a number');
-    _;
+    continue;
   }
 
 
@@ -36,7 +36,7 @@ while (true) {
     + '- ' + repetitions;
   const confirmation = confirm(confirmMessage)
   if (confirmation) {
-    _;
+    break;
   }
 
 }
@@ -45,10 +45,12 @@ while (true) {
 let withRepeatedCharacters = '';
 
 // loop through each character in the user input
-for (_) {
+for (let i = 0; i < userInput.length; i++) {
   // append each character multiple times to withRepeatedCharacters
-  for (_) {
-    _;
+  for (let j = 0; j < repetitions; j++) {
+       withRepeatedCharacters += userInput[i];
+
+     console.log('User input inside nested loop: ', userInput)   
   }
 }
 

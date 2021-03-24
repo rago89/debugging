@@ -3,12 +3,12 @@
 
 let userInput = '';
 let asciiShift = NaN;
-while (_) {
+while (true) {
 
   userInput = prompt('enter a phrase, each character will be shifted by character code:');
   console.log('userInput:', typeof userInput, userInput);
 
-  if (_) {
+  if (!userInput) {
     alert('nope, enter something');
     continue;
   }
@@ -19,7 +19,7 @@ while (_) {
   asciiShift = Number(asciiShiftInput);
   console.log('asciiShift:', typeof asciiShift, asciiShift);
 
-  if (_) {
+  if (Number.isNaN(asciiShift)) {
     alert('"' + asciiShiftInput + '" is not a number');
     continue;
   }
@@ -29,7 +29,7 @@ while (_) {
     + '- "' + userInput + '"\n'
     + '- ' + asciiShift;
   const confirmation = confirm(confirmMessage)
-  if (_) {
+  if (confirmation) {
     break;
   }
 

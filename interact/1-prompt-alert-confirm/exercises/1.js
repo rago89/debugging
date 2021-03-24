@@ -1,8 +1,9 @@
 'use strict';
 
 // fill in the blank to pass the assertion
-
-const interactionValue = _('asdf');
+// to fill the blank should be a confirm function, because it returns true if the user confirm 
+// or false if not confirm
+const interactionValue = confirm('asdf');
 
 console.log('interactionValue:', typeof interactionValue, interactionValue);
 

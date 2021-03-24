@@ -1,8 +1,8 @@
 'use strict';
 
 // fill in the blank to pass the assertion
-
-const interactionValue = _('asdf');
+// returns nothind because there isnot valur to be returned only display a string
+const interactionValue = alert('asdf');
 
 console.log('interactionValue:', typeof interactionValue, interactionValue);
 

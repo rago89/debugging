@@ -3,34 +3,36 @@
 (() => {
   const wet = 'soup';
   const dry = 'bread';
-  const obj = { _, _ };
-  console.assert(obj.dry === _, 'Test 1');
-  console.assert(obj._ === 'soup', 'Test 2');
-  console.assert(deepCompare(obj, {}), 'Test 3');
+  const obj = { wet, dry };
+  console.assert(obj.dry === 'bread', 'Test 1');
+  console.assert(obj.wet === 'soup', 'Test 2');
+  console.assert(deepCompare(obj, { dry: 'bread', wet: 'soup' }), 'Test 3');
 })();
 
 (() => {
   const tall = 'tree';
   const obj = {
-    _,
-    _: 'bush',
+    tall,
+    short: 'bush',
   };
-  console.assert(obj.short === _, 'Test 4');
-  console.assert(_ === 'tree', 'Test 5');
-  console.assert(deepCompare(obj, {}), 'Test 6');
+  console.assert(obj.short === 'bush', 'Test 4');
+  console.assert(obj.tall === 'tree', 'Test 5');
+  console.assert(deepCompare(obj, {tall: 'tree', short: 'bush' }), 'Test 6');
 })();
 
 (() => {
-  const swimming = _;
+  const swimming = 'mackerel';
   const obj = {
-    flying: _,
-    _,
-    _: 'cheetah',
+    flying: 'crane',
+    swimming,
+    running: 'cheetah',
   };
-  console.assert(_ === 'crane', 'Test 7');
-  console.assert(obj.running === _, 'Test 8');
-  console.assert(_ === 'mackerel', 'Test 9');
-  console.assert(deepCompare(obj, {}), 'Test 10');
+  console.assert(obj.flying === 'crane', 'Test 7');
+  console.assert(obj.running === 'cheetah', 'Test 8');
+  console.assert(obj.swimming === 'mackerel', 'Test 9');
+  console.assert(deepCompare(obj, {    flying: 'crane',
+    swimming,
+    running: 'cheetah',}), 'Test 10');
 })();
 
 // prettier-ignore
