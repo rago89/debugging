@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Firefox dev. edition
@@ -22,8 +22,13 @@
 
   the mistake: the logging happened before the initializatio
   the fix(es): log after declaration
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 console.log(tomatoes);
 
-let tomatoes = 'fresh';
+let tomatoes = "fresh";

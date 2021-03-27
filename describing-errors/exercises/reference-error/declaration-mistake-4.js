@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser:
@@ -19,10 +19,15 @@ studyWith @ javascript-class.js:316
 
   the mistake: seven is not defined
   the fix(es): declare seven
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 const add = (x = 0, y = 0) => {
   return x + y;
 };
 
-seven = add(3, 4); 
+seven = add(3, 4);

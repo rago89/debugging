@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Chrome
@@ -20,8 +20,13 @@ studyWith @ javascript-class.js:316
 
   the mistake: welf is not defined
   the fix(es): declare with let or const according needs
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
-welf = 'ingrad';
+welf = "ingrad";
 
 console.log(welf);

@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Edge
@@ -26,6 +26,11 @@ studyWith @ javascript-class.js:316
 
   the mistake: the variable max should be an array, string or object
   the fix(es): change the value of the variable ot=r change the tipe of loop
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 const max = 12;

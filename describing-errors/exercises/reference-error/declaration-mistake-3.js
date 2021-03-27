@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Chrome
@@ -19,10 +19,16 @@ studyWith @ javascript-class.js:316
 
   the mistake: isValidUserName is called before initialization 
   the fix(es): declare la variable before the execution 
+
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
-const userName = 'chiobin';
-console.log('userName:', typeof userName, userName);
+const userName = "chiobin";
+console.log("userName:", typeof userName, userName);
 
 if (userName.length > 3) {
   isValidUserName = true; // Error
@@ -34,4 +40,4 @@ if (userName.length <= 3) {
   isValidUserName = false;
 }
 
-console.log('isValidUserName:', typeof isValidUserName, isValidUserName);
+console.log("isValidUserName:", typeof isValidUserName, isValidUserName);

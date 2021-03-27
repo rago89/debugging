@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Firefox dev. Edition
@@ -32,10 +32,15 @@
 
   the mistake: Escope error isValidUserName is declared only inside of the condition and is declared twice
   the fix(es): declare outside of the condition and call it in the condition
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
-const userName = 'chiobin';
-console.log('userName:', typeof userName, userName);
+const userName = "chiobin";
+console.log("userName:", typeof userName, userName);
 
 if (userName.length > 4) {
   const isValidUserName = true; // Mistake
@@ -43,4 +48,4 @@ if (userName.length > 4) {
   const isValidUserName = false; // Mistake
 }
 
-console.log('isValidUserName:', typeof isValidUserName, isValidUserName); // Error
+console.log("isValidUserName:", typeof isValidUserName, isValidUserName); // Error

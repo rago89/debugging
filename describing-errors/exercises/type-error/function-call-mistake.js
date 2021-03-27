@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   browser: Firefox dev. edition
@@ -18,6 +18,11 @@ blank line 40 > injectedScript:20:30
 
   the mistake: bad function call 
   the fix(es): delete the keyword const, delete the = and + sign, add ( value, value )
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 const addedTowNumbers = 3 + 4;

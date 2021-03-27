@@ -21,6 +21,11 @@
 
   the mistake: missing } in compound statement
   the fix(es): put the }
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 

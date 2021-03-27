@@ -25,6 +25,11 @@ studyWith @ javascript-class.js:316
 
   the mistake: break estatement inside function line 32
   the fix(es): delete the break statement
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 

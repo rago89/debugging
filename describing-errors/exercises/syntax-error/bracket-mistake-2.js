@@ -20,6 +20,11 @@ studyWith @ javascript-class.js:316
 
   the mistake: extra closing curly brace
   the fix(es): delete the ectra closing curly brace line 27
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
 

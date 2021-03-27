@@ -1,5 +1,4 @@
-'use strict';
-
+"use strict";
 
 /*
   browser: Firefox dev. edition
@@ -21,9 +20,14 @@ blank:20:2
 
   the mistake: ilegal break statement 
   the fix(es): delete the break statement
+  life cycle:
+
+  the mistake:
+
+  the fix(es):
 */
 
-const userName = 'wingdoz';
+const userName = "wingdoz";
 
 if (userName.length > 3) {
   console.log(userName);
