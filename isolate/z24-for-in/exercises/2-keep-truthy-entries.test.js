@@ -9,11 +9,11 @@ const assert = require('chai').assert;
  */
 const keepTruthyEntries = (obj = {}) => {
 
-  let onlyTruthyEntries = _;
-  for (const _ in _) {
-    const value = _[_];
-    if (_) {
-      _[_] = _;
+  let onlyTruthyEntries = {};
+  for (const key in obj) {
+    const value = obj[key];
+    if (Boolean(value) === true) {
+      onlyTruthyEntries[key] = value;
     }
   }
 

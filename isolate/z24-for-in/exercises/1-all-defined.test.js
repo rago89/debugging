@@ -8,11 +8,11 @@ const assert = require('chai').assert;
  * @returns {boolean} - are all the entries defined?
  */
 const allEntriesDefined = (obj) => {
-  let allAreDefined = {};
+  let allAreDefined = true;
   for (const key in obj) {
     const value = obj[key];
     const valueIsDefined = typeof value;
-    allAreDefined = valueIsDefined !== 'undefined' && valueIsDefined !== 'null';
+    allAreDefined = allAreDefined && valueIsDefined !== 'undefined';
   }
 
   return allAreDefined;
