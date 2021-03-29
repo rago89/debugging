@@ -17,16 +17,10 @@
     <anonymous> http://localhost:5000/own_static_resources_lenses/study/static/types/javascript/init.js:3
 
 
-​
-
+  life cycle: execution phase
 
   the mistake: the logging happened before the initializatio
   the fix(es): log after declaration
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 console.log(tomatoes);

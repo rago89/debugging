@@ -19,13 +19,10 @@
     <anonymous> http://localhost:5000/own_static_resources_lenses/study/static/types/javascript/init.js:3
 
 
+  life cycle: declaration phase
+
   the mistake: missing } in compound statement
   the fix(es): put the }
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 

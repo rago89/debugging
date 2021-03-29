@@ -2,18 +2,25 @@
 
 
 /*
-  browser:
+  browser: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected number
 
   callstack:
+  
+evaller.onload	@	study-with.js:40
+load (async)		
+(anonymous)	@	study-with.js:27
+studyWith	@	javascript-class.js:316
+(anonymous)	@	javascript-class.js:158
 
-  life cycle:
 
-  the mistake:
+  life cycle: declaration phase
 
-  the fix(es):
+  the mistake: cannot create numbes as variables
+
+  the fix(es): change the number for a string
 */
 
 

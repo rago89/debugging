@@ -20,13 +20,13 @@ studyWith @ javascript-class.js:316
 
   the mistake: welf is not defined
   the fix(es): declare with let or const according needs
-  life cycle:
+  life cycle: execution phase
 
-  the mistake:
+  the mistake: the variable welf is not declared
 
-  the fix(es):
+  the fix(es): use let or const to doclare it 
 */
 
-welf = "ingrad";
+welf = "ingrad"; // error 
 
 console.log(welf);

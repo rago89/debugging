@@ -17,13 +17,10 @@ load (async)
 studyWith @ javascript-class.js:316
 (anonymous) @ javascript-class.js:158
 
+  life cycle:  execution phase
+
   the mistake: seven is not defined
   the fix(es): declare seven
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 const add = (x = 0, y = 0) => {

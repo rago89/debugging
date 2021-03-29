@@ -1,20 +1,26 @@
 'use strict';
 
 /*
-  browser:
+  browser: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message:  Unexpected identifier
 
   callstack:
 
-  life cycle:
+    at HTMLIFrameElement.evaller.onload (study-with.js:40)
+evaller.onload @ study-with.js:40
+load (async)
+(anonymous) @ study-with.js:27
+studyWith @ javascript-class.js:316
+(anonymous) @ javascript-class.js:161
 
-  the mistake:
+  life cycle: declaration phase
 
-  the fix(es):
+  the mistake: set an if keyword instead  for 
+  the fix(es): change the if by for 
 */
 
-if (let i = 0; i < 5; i++) {
+if (let i = 0; i < 5; i++) {  // error and mistake
   console.log(i);
 }

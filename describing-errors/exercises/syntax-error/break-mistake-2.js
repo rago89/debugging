@@ -23,13 +23,11 @@ load (async)
 studyWith @ javascript-class.js:316
 (anonymous) @ javascript-class.js:158
 
+
+  life cycle: declaration phase
+
   the mistake: break estatement inside function line 32
   the fix(es): delete the break statement
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 

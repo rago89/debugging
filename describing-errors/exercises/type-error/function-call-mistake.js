@@ -16,13 +16,11 @@
     initJsUi http://localhost:5000/own_static_resources_lenses/study/static/types/javascript/javascript-class.js:158
 blank line 40 > injectedScript:20:30
 
+  life cycle: execution phase
+
   the mistake: bad function call 
   the fix(es): delete the keyword const, delete the = and + sign, add ( value, value )
-  life cycle:
 
-  the mistake:
-
-  the fix(es):
 */
 
 const addedTowNumbers = 3 + 4;

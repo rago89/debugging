@@ -17,14 +17,11 @@ load (async)
 studyWith @ javascript-class.js:316
 (anonymous) @ javascript-class.js:158
 
+  life cycle: execution phase
+
   the mistake: isValidUserName is called before initialization 
   the fix(es): declare la variable before the execution 
 
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 const userName = "chiobin";

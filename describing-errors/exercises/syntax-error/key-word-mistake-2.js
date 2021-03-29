@@ -1,20 +1,27 @@
 'use strict';
 
 /*
-  browser:
+  browser: Chrome
 
-  name:
-  message:
+  name: SyntaxError
+  message: Unexpected token 'for'
 
   callstack:
 
-  life cycle:
+evaller.onload	@	study-with.js:40
+load (async)		
+(anonymous)	@	study-with.js:27
+studyWith	@	javascript-class.js:316
+(anonymous)	@	javascript-class.js:158
+﻿
 
-  the mistake:
+  life cycle: declaration phase
 
-  the fix(es):
+  the mistake: trying to declare a for loop  as a variable
+
+  the fix(es): delete the keyword const and = sign 
 */
 
-const for = (let i = 0; i < 5; i++) {
+const for = (let i = 0; i < 5; i++) { //error and mistake 
   console.log(i);
 }

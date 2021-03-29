@@ -30,13 +30,11 @@
     InnerModuleEvaluation self-hosted:2379
     evaluation self-hosted:2330
 
+
+  life cycle: execution phase
+
   the mistake: Escope error isValidUserName is declared only inside of the condition and is declared twice
   the fix(es): declare outside of the condition and call it in the condition
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
 */
 
 const userName = "chiobin";

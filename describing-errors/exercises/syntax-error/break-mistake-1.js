@@ -18,13 +18,11 @@
     <anonymous> http://localhost:5000/own_static_resources_lenses/study/static/types/javascript/init.js:3
 blank:20:2
 
+
+  life cycle: declaration phase
+
   the mistake: ilegal break statement 
-  the fix(es): delete the break statement
-  life cycle:
-
-  the mistake:
-
-  the fix(es):
+  the fix(es): delete the break statement:
 */
 
 const userName = "wingdoz";
