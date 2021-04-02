@@ -2,7 +2,8 @@
 
 let userInput = '';
 let userConfirmed = false;
-while (userConfirmed) {
+// was missing the not operator 
+while (!userConfirmed) {
   userInput = prompt('enter your name:');
   console.log('userInput:', typeof userInput, userInput);
 
@@ -12,7 +13,8 @@ while (userConfirmed) {
   }
 
   const confirmMessage = 'is this correct?\n"' + userInput + '"';
-  userConfirmed = alert(confirmMessage);
+  // the user confirmed was using an alert instead of confirm function
+  userConfirmed = confirm(confirmMessage);
 }
 
 const finalMessage = `your name is: "${userInput}"`;
