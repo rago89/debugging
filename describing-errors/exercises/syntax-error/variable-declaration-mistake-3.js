@@ -2,6 +2,7 @@
 
 /*
   browser: Firefox dev. Edition
+  environment:
 
   name: SyntaxError
   message: missing variable name

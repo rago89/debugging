@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 /*
   browser: Chrome
+  environment:
 
   name: SyntaxError
   message: Illegal return statement
@@ -29,7 +30,7 @@ while (true) {
   iterations += 1;
 
   if (iterations > 8) {
-    return;                  // mistake
+    return; // mistake
   }
 }
 

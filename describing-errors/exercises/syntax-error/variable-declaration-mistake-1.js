@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 /*
   browser: Chrome
+  environment:
 
   name: SyntaxError
   message: Identifier 'tree' has already been declared
@@ -22,6 +23,6 @@ studyWith	@	javascript-class.js:316
   the fix(es): delete the let keyword
 */
 
-let tree = 'oak';
+let tree = "oak";
 
-let tree = 'birch'; //error
+let tree = "birch"; //error

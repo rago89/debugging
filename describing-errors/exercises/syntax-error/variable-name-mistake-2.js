@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 /*
   browser: Firefox dev. Edition 
+  environment:
 
   name: SyntaxError
   message:  redeclaration of non-configurable global 
@@ -26,4 +27,4 @@ blank line 40 > injectedScript:1:1
   the fix(es): change undefined for anothe variable name 
 */
 
-const undefined = 'three';
+const undefined = "three";

@@ -4,6 +4,7 @@
   browser: Firefox dev. edition
   name: ReferenceError
   message: can't access lexical declaration 'tomatoes' before initialization
+  environment:
 
   callstack:
     Uncaught ReferenceError: can't access lexical declaration 'tomatoes' before initialization  line 40 > injectedScript:15

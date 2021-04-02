@@ -3,6 +3,7 @@
 
 /*
   browser: Firefox dev. edition
+  environment:
 
   name: SyntaxError
   message: missing } in compound statement

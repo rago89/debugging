@@ -2,6 +2,7 @@
 
 /*
   browser: Firefox dev. edition
+  environment:
 
   name: TypeError
   message: addedTowNumbers is not a function

@@ -3,6 +3,7 @@
 
 /*
   browser: Edge 
+  environment:
 
   name: SyntaxError
   message: Undefined label 'x'

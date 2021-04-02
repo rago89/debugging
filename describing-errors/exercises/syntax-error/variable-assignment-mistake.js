@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 /*
   browser: Chrome
+  environment:
 
   name: SyntaxError
   message: Invalid left-hand side in assignment

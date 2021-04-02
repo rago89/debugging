@@ -1,7 +1,7 @@
 'use strict';
 
 /*
-  browser:
+  environment:
 
   name: SyntaxError
   message:  '' string literal contains an unescaped line break

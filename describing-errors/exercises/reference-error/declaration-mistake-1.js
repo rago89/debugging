@@ -2,6 +2,7 @@
 
 /*
   browser: Chrome
+  environment:
 
   name: ReferenceError
   message: welf isnot defined
@@ -27,6 +28,6 @@ studyWith @ javascript-class.js:316
   the fix(es): use let or const to doclare it 
 */
 
-welf = "ingrad"; // error 
+welf = "ingrad"; // error
 
 console.log(welf);

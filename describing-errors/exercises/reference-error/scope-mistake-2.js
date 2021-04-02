@@ -2,6 +2,7 @@
 
 /*
   browser: Firefox dev. Edition
+  environment:
 
   name: ReferenceError
   message: isValidUserName is not defined

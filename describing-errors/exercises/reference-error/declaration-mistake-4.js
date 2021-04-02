@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-  browser:
+  environment:
 
   name: ReferenceError
   message: seven is not defined

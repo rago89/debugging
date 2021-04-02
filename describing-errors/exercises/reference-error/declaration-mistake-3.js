@@ -2,6 +2,7 @@
 
 /*
   browser: Chrome
+  environment:
 
   name: ReferenceError
   message: Cannot access 'isValidUserName' before initialization

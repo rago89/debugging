@@ -1,7 +1,8 @@
-'use strict';
+"use strict";
 
 /*
   browser: Firefox dev. Edition
+  environment:
 
   name: SyntaxError
   message: continue must be inside loop
@@ -24,9 +25,9 @@ bla
   the fix(es): delete the continue
 */
 
-const userName = 'wingdoz';
+const userName = "wingdoz";
 
 if (userName.length > 3) {
   console.log(userName);
-  continue;  // error and mistake
+  continue; // error and mistake
 }

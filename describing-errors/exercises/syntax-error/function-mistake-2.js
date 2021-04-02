@@ -2,6 +2,7 @@
 
 /*
   browser: firefox dev. Edition
+  environment:
 
   name: SyntaxError
   message: invalid arrow-function arguments (parentheses around the arrow-function may help)

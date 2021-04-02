@@ -2,6 +2,7 @@
 
 /*
   browser: firefox dev. Edition
+  environment:
 
   name: SyntaxError
   message: unexpected token: string literal

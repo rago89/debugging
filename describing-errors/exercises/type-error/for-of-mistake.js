@@ -2,6 +2,7 @@
 
 /*
   browser: Edge
+  environment:
 
   name: TypeError
   message: max is not iterable

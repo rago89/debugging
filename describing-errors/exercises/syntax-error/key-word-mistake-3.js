@@ -2,6 +2,7 @@
 
 /*
   browser: Chrome
+  environment:
 
   name: SyntaxError
   message: Unexpected token '{'

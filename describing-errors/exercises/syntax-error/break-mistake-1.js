@@ -2,6 +2,7 @@
 
 /*
   browser: Firefox dev. edition
+  environment:
 
   name: SyntaxError
   message: unlabeled break must be inside loop or switch
