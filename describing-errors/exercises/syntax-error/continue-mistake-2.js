@@ -2,8 +2,7 @@
 
 
 /*
-  browser: Firefox dev. Edition
-  environment:
+  environment: Firefox dev. Edition
 
   name: Uncaught SyntaxError
   message: continue must be inside loop

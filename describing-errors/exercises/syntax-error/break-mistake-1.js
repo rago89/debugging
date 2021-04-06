@@ -1,8 +1,8 @@
 "use strict";
 
 /*
-  browser: Firefox dev. edition
-  environment:
+  environment: Firefox dev. edition
+
 
   name: SyntaxError
   message: unlabeled break must be inside loop or switch

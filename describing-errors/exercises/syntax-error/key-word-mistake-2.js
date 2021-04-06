@@ -1,8 +1,7 @@
 'use strict';
 
 /*
-  browser: Chrome
-  environment:
+  environment: Chrome
 
   name: SyntaxError
   message: Unexpected token 'for'

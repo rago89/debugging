@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Chrome
-  environment:
+  environment: Chrome
 
   name: ReferenceError
   message: Cannot access 'isValidUserName' before initialization

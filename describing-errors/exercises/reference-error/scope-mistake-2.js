@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Firefox dev. Edition
-  environment:
+   environment: Firefox dev. Edition
 
   name: ReferenceError
   message: isValidUserName is not defined

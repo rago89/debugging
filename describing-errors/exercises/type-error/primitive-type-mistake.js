@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Firefox dev. Edition
-  environment:
+  environment:: Firefox dev. Edition
 
   name: TypeError
   message: can't access property "length", userInput is null

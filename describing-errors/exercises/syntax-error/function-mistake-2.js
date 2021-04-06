@@ -1,8 +1,7 @@
 'use strict';
 
 /*
-  browser: firefox dev. Edition
-  environment:
+  environment: firefox dev. Edition
 
   name: SyntaxError
   message: invalid arrow-function arguments (parentheses around the arrow-function may help)

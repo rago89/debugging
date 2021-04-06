@@ -16,8 +16,8 @@ const firstNameDot = lukesFather.firstName;
 const lastNameDot = lukesFather.lastName;
 
 // using bracket notation
-const findFirst = 'firstName';
-const findLast = 'lastName';
+const findFirst = lukesFather['firstName'];
+const findLast = lukesFather['lastName'];
 
 const firstNameBracket = lukesFather[findFirst];
 const lastNameBracket = lukesFather[findLast];

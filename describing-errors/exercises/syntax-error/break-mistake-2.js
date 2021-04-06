@@ -2,8 +2,8 @@
 
 
 /*
-  browser: Edge 
-  environment:
+  environment: Edge 
+
 
   name: SyntaxError
   message: Undefined label 'x'

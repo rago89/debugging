@@ -2,8 +2,7 @@
 
 
 /*
-  browser: Firefox dev. edition
-  environment:
+  environment: Firefox dev. edition
 
   name: SyntaxError
   message: missing } in compound statement

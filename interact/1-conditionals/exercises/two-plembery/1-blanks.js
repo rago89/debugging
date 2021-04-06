@@ -40,42 +40,34 @@ alert(phrasesToRemember);
 
 let score = 0;
 
-const guess1 = prompt('Player 1, enter your first guess:');
+const guess1 = prompt('Player 2, enter your first guess:');
 console.log('guess1:', typeof guess1, guess1);
 
-<<<<<<< HEAD:interact/2-user-flow/exercises/3-two-plembery.js
+
 if (guess1 === phrase1) {
 
-  score = 1;
-=======
-if (_) {
-  score = _;
->>>>>>> upstream/master:interact/1-conditionals/exercises/two-plembery/1-blanks.js
+  score += 1;
 
-  const guess2 = prompt('Player 1, enter your second guess:');
+
+  const guess2 = prompt('Player 2, enter your second guess:');
   console.log('guess2:', typeof guess2, guess2);
 
-<<<<<<< HEAD:interact/2-user-flow/exercises/3-two-plembery.js
+
   if (guess2 === phrase2) {
 
     score += 1;
-=======
-  if (_) {
-    score = _;
->>>>>>> upstream/master:interact/1-conditionals/exercises/two-plembery/1-blanks.js
 
-    const guess3 = prompt('Player 1, enter your third guess:');
+
+    const guess3 = prompt('Player 2, enter your third guess:');
     console.log('guess3:', typeof guess3, guess3);
 
     if (guess3 === phrase3) {
       score += 1;
 
-<<<<<<< HEAD:interact/2-user-flow/exercises/3-two-plembery.js
+
       alert(`your score: ${score}`);
 
-=======
-      alert(`your score: ${_}`);
->>>>>>> upstream/master:interact/1-conditionals/exercises/two-plembery/1-blanks.js
+
     } else {
       alert(`your score: ${score}`);
     }

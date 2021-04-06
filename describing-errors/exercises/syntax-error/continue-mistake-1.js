@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Firefox dev. Edition
-  environment:
+  environment: Firefox dev. Edition
 
   name: SyntaxError
   message: continue must be inside loop

@@ -1,7 +1,7 @@
 "use strict";
 
 /*
-  environment:
+  environment: Chrome
 
   name: ReferenceError
   message: seven is not defined

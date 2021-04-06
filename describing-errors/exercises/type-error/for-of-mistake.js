@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Edge
-  environment:
+   environment:: Edge
 
   name: TypeError
   message: max is not iterable

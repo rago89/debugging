@@ -1,8 +1,8 @@
 'use strict';
 
 /*
-  browser: Firefox dev. Edition
-  environment:
+  environment: Firefox dev. Edition
+
 
   name: SyntaxError
   message: unexpected token: identifier

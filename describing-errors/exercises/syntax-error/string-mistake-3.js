@@ -1,9 +1,8 @@
 'use strict';
 
 /*
-  browser: firefox dev. Edition
-  environment:
-
+  environment: firefox dev. Edition
+  
   name: SyntaxError
   message: unexpected token: string literal
 

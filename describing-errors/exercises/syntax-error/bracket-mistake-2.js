@@ -2,8 +2,7 @@
 
 
 /*
-  browser: Chrome
-  environment:
+  environment: Chrome
 
 
   name: SyntaxError

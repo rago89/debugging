@@ -1,8 +1,7 @@
 "use strict";
 
 /*
-  browser: Firefox dev. edition
-  environment:
+   environment:: Firefox dev. edition
 
   name: TypeError
   message: addedTowNumbers is not a function

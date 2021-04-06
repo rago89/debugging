@@ -1,9 +1,8 @@
 "use strict";
 
 /*
-  browser: Firefox dev. Edition 
-  environment:
-
+  environment: Firefox dev. Edition 
+  
   name: SyntaxError
   message:  redeclaration of non-configurable global 
 
