@@ -39,15 +39,15 @@ while (true) {
 let encodedString = '';
 
 // iterate through each character in the user input
-for (_) {
+for (let character of userInput) {
   // find the charCode for the current character
-  _;
+  const characterToCode = character.charCodeAt();
   // add asciiShift to the character code
-  _;
+  const characterToCodeAcc = characterToCode + asciiShift;
   // convert the new character code to a string
-  _;
+  const characterCodedToString = String.fromCharCode(characterToCodeAcc);
   // add the new character to the encoded string
-  _;
+  encodedString += characterCodedToString;
 }
 
 console.log('encodedString:', typeof encodedString, encodedString);

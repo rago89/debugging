@@ -21,32 +21,24 @@ console.log('user\'s entry casted=> ', userNumber, typeof(userNumber))
 const inputIsANumber = !Number.isNaN(userNumber);
 console.log(inputIsANumber, typeof(inputIsANumber));
 // does the user think their String becomes a Number?
-<<<<<<< HEAD:interact/2-user-flow/exercises/1-validatron.js
 const confirmMessage = 'did you really enter a number?\n\n'
   + 'yes -> "ok"\n'
   + 'no  -> "cancel"';
 const userThinksItsANumber = confirm(confirmMessage);
-=======
-const confirmMessage = 'did you really enter a number?\n\n' + 'yes -> "ok"\n' + 'no  -> "cancel"';
-const userThinksItsANumber = _(confirmMessage);
->>>>>>> upstream/master:interact/3-numbers/exercises/1-validatron/1-blanks.js
+
 
 // compare userThinksItsANumber and inputIsANumber
 // does the user think the same thing as JavaScript?
 // see: isolate/04-comparing-and-assertion/examples/1-strict-equality.js
 const userIsCorrect = console.assert(userThinksItsANumber === inputIsANumber, 'fail test is not a number')
 ;
+console.log('is user is correct boolean?=> ', userIsCorrect, typeof userIsCorrect);
 
 // which variable "knows" if the user was correct?
-<<<<<<< HEAD:interact/2-user-flow/exercises/1-validatron.js
 // the return of the value is boolean that is why the comparition should be with a boolean value
-if (userThinksItsANumber) {
+if (inputIsANumber) {
   alert('correct!');
 
-=======
-if (_) {
-  _('correct!');
->>>>>>> upstream/master:interact/3-numbers/exercises/1-validatron/1-blanks.js
 } else {
   alert('nope :(');
 }

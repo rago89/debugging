@@ -17,7 +17,7 @@ while (!isDone) {
 
   if (userInput === '' && userInput === null) {
     alert('nothing is not allowed');
-  } else if (userInput.toLowerCase() === 'DONE') {
+  } else if (userInput.toLowerCase() === 'done') {
     isDone = true;
   } else {
     const nextNumber = Number(userInput);
@@ -25,7 +25,7 @@ while (!isDone) {
     if (Number.isNaN(nextNumber)) {
       alert('"' + userInput + '" is not a number, it has been ignored');
     } else {
-      sum += sum + nextNumber;
+      sum += nextNumber;
     }
   }
 }

@@ -3,12 +3,11 @@
 let userInput = '';
 let repeatedInput = '';
 let repetitions = NaN;
-<<<<<<< HEAD:interact/4-iterating-user-data/exercises/3-repeat-string.js
+
+
+
 while (true) {
 
-=======
-while (_) {
->>>>>>> upstream/master:interact/3-numbers/exercises/3-repeat-string/1-blanks.js
   /* gather a string from the user */
   userInput = prompt('enter a phrase to repeat:');
 
@@ -44,20 +43,14 @@ while (_) {
   }
 }
 
-<<<<<<< HEAD:interact/4-iterating-user-data/exercises/3-repeat-string.js
+repeatedInput = '';
+
 /* repeat the user input `repetitions` number of times */
 for (let i = 0; i < repetitions; i++) {
-  repeatedInput = repeatedInput + userInput + ' ';
+
+  repeatedInput += userInput;
 }
 
-console.log('repeatedInput:', typeof repeatedInput, repeatedInput);
-
-=======
-let repeatedInput = '';
-
-/* repeat the user input `repetitions` number of times */
-for (_; _; _) {}
->>>>>>> upstream/master:interact/3-numbers/exercises/3-repeat-string/1-blanks.js
 
 const finalMessage = `"${userInput}" -> "${repeatedInput}" `;
 alert(finalMessage);

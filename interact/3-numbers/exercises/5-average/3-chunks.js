@@ -21,7 +21,19 @@ while (true) {
   }
 
   /* -- BEGIN: update sum and inputCount if input is a number, exit if it is "done" -- */
+  if (userInput.toLowerCase().includes('done')){
+    break;
+  }
+  let numberToCount = Number(userInput);
+
+  if (Number.isNaN(numberToCount)) {
+    alert('is not a number');
+    continue;
+  }
+
+  sum += numberToCount;
   /* -- END -- */
+  inputCount += 1;
 }
 
 const average = sum / inputCount;

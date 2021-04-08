@@ -4,7 +4,7 @@ let userInput = '';
 let asciiShift = NaN;
 
 while (true) {
-  const userInput = prompt(
+   userInput = prompt(
     'enter a phrase, each character will be shifted by character code:'
   );
 
@@ -19,7 +19,7 @@ while (true) {
       if (asciiShiftInput === null || asciiShiftInput === '') {
         alert('enter something');
       } else {
-        const asciiShift = Number(asciiShiftInput);
+         asciiShift = Number(asciiShiftInput);
 
         if (Number.isNaN(asciiShift)) {
           alert('"' + asciiShiftInput + '" is not a number');

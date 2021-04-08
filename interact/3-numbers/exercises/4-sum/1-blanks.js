@@ -16,14 +16,11 @@ while (true) {
   console.log('userInput:', typeof userInput, userInput);
 
   // make sure the user input something
-<<<<<<< HEAD:interact/3-input-output-loops/exercises/6-running-total.js
+
   if (!userInput) {
-    alert('please enter ss=omething');
+    alert('please enter something');
     continue;
   }
-=======
-  ___;
->>>>>>> upstream/master:interact/3-numbers/exercises/4-sum/1-blanks.js
 
   // check if the user input is "done", case-insensitive
   if (userInput.toLowerCase().includes('done')) {
@@ -34,15 +31,11 @@ while (true) {
   console.log('nextNumber:', typeof nextNumber, nextNumber);
 
   // continue if the input is not a number
-<<<<<<< HEAD:interact/3-input-output-loops/exercises/6-running-total.js
+
   if (Number.isNaN(nextNumber)) {
     alert('Please enter a number');
     continue;
   }
-
-=======
-  ___;
->>>>>>> upstream/master:interact/3-numbers/exercises/4-sum/1-blanks.js
 
   // add the new number to the sum
   sum += nextNumber;

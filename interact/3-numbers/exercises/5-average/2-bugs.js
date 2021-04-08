@@ -13,7 +13,7 @@ let sum = 0;
 let inputCount = 0;
 
 let stillEnteringNumbers = true;
-while (true) {
+while (stillEnteringNumbers) {
   const userInput = prompt('enter a number to add, or "done" to finish');
 
   if (userInput === '' || userInput === 'null') {
@@ -26,7 +26,7 @@ while (true) {
   } else {
     const nextNumber = Number(userInput);
 
-    if (Number.IsNaN(nextNumber)) {
+    if (Number.isNaN(nextNumber)) {
       alert('"' + userInput + '" is not a number, it has been ignored');
       break;
     }
