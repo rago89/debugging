@@ -23,8 +23,8 @@
 
 
 // try different values to see what happens
-let a = "10";
-let b = "10";
+let a = 10;
+let b = 10;
 
 
 const realPlus = a + b;
@@ -43,6 +43,6 @@ if (typeof a === "string" || typeof b === "string") {
   fakePlus = aNum + bNum;
 
 }
-
+console.log('fakePlus => ', fakePlus, typeof fakePlus);
 
 console.assert(realPlus === fakePlus, 'fakePlus and realPlus will always be the same');

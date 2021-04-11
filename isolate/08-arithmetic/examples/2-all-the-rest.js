@@ -29,5 +29,5 @@ const bNum = Number(b);
 
 const fakeSubtraction = aNum - bNum;
 
-
+console.log('fakeSubtraction=> ', fakeSubtraction, typeof fakeSubtraction)
 console.assert(realSubtraction === fakeSubtraction, 'always the same!');
