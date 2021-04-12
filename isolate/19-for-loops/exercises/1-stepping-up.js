@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /* Stepping Up
 
@@ -17,17 +17,19 @@
 
 */
 
-const toRepeat = 'howdy';
+const toRepeat = "howdy";
 const totalRepetitions = 4;
 
-let repeatedString = '';
-
+let repeatedString = "";
 
 // fill in the _ of the loophead using an existing variable
 for (let i = 0; i < totalRepetitions; i++) {
   repeatedString += toRepeat;
+
   console.log(repeatedString);
 }
 
-console.assert(repeatedString === 'howdyhowdyhowdyhowdy', '"howdy" should be repeated 4 times');
-
+console.assert(
+  repeatedString === "howdyhowdyhowdyhowdy",
+  '"howdy" should be repeated 4 times'
+);
