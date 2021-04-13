@@ -25,7 +25,7 @@ const b = (y) => {
 };
 
 const c = (y, x) => {
-  const m = y - x
+  const m = y - x;
   return x + m;
 };
 

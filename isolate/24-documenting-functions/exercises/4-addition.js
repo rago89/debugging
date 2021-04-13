@@ -15,7 +15,7 @@
  * @param {number} y - the right number
  * @returns {number} the sum of x and y
  */
-const add = (x, y) => {
+const add = (x = 0, y = 0) => {
   let sum = x  + y;
   return sum;
 };

@@ -19,4 +19,4 @@ while (index < word.length) {
 
 }
 
-console.assert(index === _, 'there are this many letters in the word');
+console.assert(index === 9, 'there are this many letters in the word');

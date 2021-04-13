@@ -15,7 +15,7 @@
  * @param {number} repeats - the number of repetitions set as a number
  * @returns {string} returns the string with the number of repetitions
  */
-const repeat = (string = "", number) => {
+const repeat = (string = "", number = 1) => {
   let stringToRepeat = "";
   for (let i = 0; i < number; i++) {
     stringToRepeat += string;
