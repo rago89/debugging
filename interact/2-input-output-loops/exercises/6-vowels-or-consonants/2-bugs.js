@@ -1,24 +1,37 @@
 'use strict';
 
-/* for character of String
+/* look out for:
 
-  iterating through each character in a string is so common
-  that there's special syntax to make it easier
+  - loop check logic
+  - variable declarations
+  - assignment vs. comparison
+  - wrong interaction functions
+  - off-by-one in for loop
 
 */
 
 let userInput = '';
 let userConfirmed = false;
+<<<<<<< HEAD
 while (!userConfirmed) {
   userInput = prompt('enter a word to filter:');
+=======
+while (userConfirmed) {
+  const userInput = prompt('enter a word to filter:');
+>>>>>>> upstream/master
 
   if (userInput === '' || userInput === null) {
     alert('nope, enter something');
     continue;
   }
 
+  // regular expression, this works!
   const whiteSpaceRegex = new RegExp('\\s', 'g');
+<<<<<<< HEAD
   if (whiteSpaceRegex.test(userInput)) {
+=======
+  if (whiteSpaceRegex.test(userInput) === true) {
+>>>>>>> upstream/master
     alert("words can't have white space");
   } else {
     const confirmMessage =

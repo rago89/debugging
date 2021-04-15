@@ -1,6 +1,18 @@
 "use strict";
 
+<<<<<<< HEAD
 let validInput = "";
+=======
+/* look out for
+
+  - comparison vs. assignment
+  - off-by-one character index
+  - reversing boolean flag
+
+*/
+
+let validInput = '';
+>>>>>>> upstream/master
 let isValid = false;
 while (!isValid) {
   const userInput = prompt('enter anything with "e" or "E" as the 5th letter');
