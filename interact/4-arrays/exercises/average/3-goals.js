@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 /*
   gather numbers from a user until they enter "done"
@@ -17,13 +17,25 @@ When you're done entering numbers enter "done"
 //  but the variable will still reference the same array
 const numbers = [];
 /* -- BEGIN: gather users numbers -- */
+let userIsDone = false;
+while (!userIsDone) {
+  const userInput = prompt("Enter numbers, and write done to finish");
 
-/* -- END: gather users numbers -- */
+  const numberToCast = !userInput
+    ? alert("please enter numbes and writo done to finish")
+    : Number(userInput);
 
-let sum = 0;
+  userInput === "done"
+    ? (userIsDone = true)
+    : Number.isNaN(numberToCast)
+    ? alert("Is not a number")
+    : numbers.push(numberToCast);
+}
+
 /* -- BEGIN: add the numbers together -- */
-
 /* -- END: add the numbers together -- */
+let sum = 0;
+numbers.forEach((number) => (sum += number));
 
 const average = sum / numbers.length;
 

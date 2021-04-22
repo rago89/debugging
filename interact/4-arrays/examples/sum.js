@@ -47,7 +47,7 @@ for (const number of numbers) {
 }
 
 // -- build the final message --
-let message = `nubers: `;
+let message = `numbers: `;
 for (const number of numbers) {
   message += `${number}, `;
 }

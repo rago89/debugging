@@ -44,7 +44,9 @@ while (removeThese === null) {
 - "${original}"`);
 }
 
+let removified = '';
 // use `removeCharacters` to create a new value assigned to `removified`
+removified = removeCharacters(original, removeThese);
 
 alert(`before: ${original}
 after: ${removified}`);

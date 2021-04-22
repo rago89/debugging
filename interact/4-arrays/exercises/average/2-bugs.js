@@ -37,13 +37,13 @@ while (true) {
     alert(`"${input}" is not a number`);
   } else {
     // -- push the input if it was a number --
-    numbers.pop(nextNumber);
+    numbers.push(nextNumber);
   }
 }
 
 // -- calculate the sum --
 let sum = 0;
-for (let i = 0; i < numbers; i++) {
+for (let i = 0; i < numbers.length; i++) {
   const number = numbers[i];
   sum += number;
 }

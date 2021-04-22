@@ -1,7 +1,12 @@
 "use strict";
 
+<<<<<<< HEAD:interact/3-numbers/exercises/6-ascii-shuffle/3-goals.js
 let userInput = "";
 let asciiShift = NaN;
+=======
+let userInput = '';
+let unicodeShift = NaN;
+>>>>>>> upstream/master:interact/3-numbers/exercises/6-unicode-shuffle/3-goals.js
 
 let userConfirmed = false;
 while (!userConfirmed) {
@@ -13,17 +18,26 @@ while (!userConfirmed) {
     alert("nope, enter something");
   } else {
     while (true) {
+<<<<<<< HEAD:interact/3-numbers/exercises/6-ascii-shuffle/3-goals.js
       const asciiShiftInput = prompt(
         "how many ascii numbers do you want the characters to shift?"
       );
 
       if (asciiShiftInput === null || asciiShiftInput === "") {
         alert("enter something");
-      } else {
-        asciiShift = Number(asciiShiftInput);
+=======
+      const unicodeShiftInput = prompt(
+        'how many unicode numbers do you want the characters to shift?'
+      );
 
-        if (Number.isNaN(asciiShift)) {
-          alert('"' + asciiShiftInput + '" is not a number');
+      if (unicodeShiftInput === null || unicodeShiftInput === '') {
+        alert('enter something');
+>>>>>>> upstream/master:interact/3-numbers/exercises/6-unicode-shuffle/3-goals.js
+      } else {
+        unicodeShift = Number(unicodeShiftInput);
+
+        if (Number.isNaN(unicodeShift)) {
+          alert('"' + unicodeShiftInput + '" is not a number');
         } else {
           break;
         }
